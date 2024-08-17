@@ -276,17 +276,15 @@ body{
 .list .container{
     display: flex;
     justify-content: space-evenly;
-    padding: 10px;
 }
 
 .list .container ul{
-    padding: 20px;
-
+    padding: 10px;
 }
 
 
 .list .container ul li{
     color: #E5004F;
-    font-weight: 700;
+    font-size: 14px;
 }
 /* List END */
