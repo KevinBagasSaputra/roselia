@@ -1,0 +1,292 @@
+*,
+html,
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+
+/* Marquee START */
+.marquee{
+    width: 100%;
+    background-color:rgb(37, 37, 37);
+}
+
+.marquee .container{
+    padding: 2px;
+}
+
+.marquee .container p{
+    color: rgb(230, 188, 188);
+}
+
+.marquee .container marquee span{
+    font-weight: 700;
+}
+/* Marquee END*/
+
+
+
+
+
+
+
+    /* Navbar START */
+        nav{
+            width: 100%;
+            background-color:#5900FF; 
+            background-image: url('https://static.wikia.nocookie.net/bandori/images/a/aa/Roselia_logo.png/revision/latest/scale-to-width-down/229?cb=20211201105701');
+            position: sticky;
+            top: 0;
+        }
+
+        nav .container{
+            padding: 10px;
+        }
+
+        nav .container ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        nav .container ul li{
+            list-style-type:none;
+        }
+
+        nav .container ul li .judul{
+            color: #935AFF;
+            font-weight: 700;
+            text-decoration:  none;
+            font-size: 24px;
+
+            text-shadow: 2px 2px 2px black;
+        }
+
+
+
+            /* Menu START */
+            .menu{
+                width: 100%;
+                background-color:rgb(59, 7, 155);
+                /* background-color:rgb(15, 15, 15); */
+                /* opacity: 0.7; */
+    
+            }
+
+            .menu .container{
+                padding: 10px;
+            }
+
+            .menu .container a{
+                color:white;
+                text-decoration: none;
+            }
+            /* Menu END */
+    /* Navbar END */
+
+
+
+/* Contact */
+
+
+
+/* Hero START */
+.hero{
+    width: 100%;
+    background-image: url('https://static.wikia.nocookie.net/bandori/images/1/16/Roselia_bs3_kv.jpg/revision/latest/scale-to-width-down/1000?cb=20210709103206');
+
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.hero .container{
+}
+
+.hero .container img{
+    max-width: 100%;
+    min-width: 50%;
+}
+
+
+    /* Content START */
+    .content{
+        width: 100%;
+    }
+
+    .content .container{
+        padding: 20px;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.705);
+
+    }
+
+    .content .container p{
+        width: 100%;
+    }
+
+
+    .members{
+        width: 100%;
+    }
+
+    .members .container{
+        border-radius: 10px;
+    }
+
+    .members .container h2{
+        color: orange;
+    }
+
+    .members .container ul{
+        /* display: flex; */
+
+        background-color: #3333339d;
+        /* overflow: auto; */
+        white-space: nowrap;
+        padding: 10px;        
+    }
+
+    .members .container ul img{
+        /* width: 50%; */
+        height: 250px;
+
+        object-fit: contain;
+        /* Masing-masing personil memiliki warnanya sendiri */
+    }
+
+        /* Personil Background START */
+        .yukina{
+            /* background-image: url('https://s1.zerochan.net/Minato.Yukina.600.2654776.jpg'); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .sayo{
+            /* background-image: url('https://static.wikia.nocookie.net/bandori/images/c/c0/To_Where_I_Dream_Of_T.png/revision/latest?cb=20210711072105'); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .lisa{
+            /* background-image: url('https://pbs.twimg.com/media/DlZBFGzVsAAA8ar.jpg'); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .rinko{
+            /* background-image: url('https://images5.alphacoders.com/992/992681.jpg'); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .ako{
+            /* background-image: url('https://i.bandori.party/u/c/art/a/941Ako-Udagawa-Happy-Tea-Time-With-Everyone-GKUyLR.png'); */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        /* Personil Background END*/
+
+
+    /* Content END */
+/* Hero END */
+
+
+/* Background START */
+.background{
+    width: 100%;
+    background-color: rgba(73, 43, 243, 0.801);
+}
+
+.background .container{
+    padding: 10px;
+
+    text-align: center;
+}
+
+.background .container h2{
+    color: #E5004F;
+}
+
+.background .container img{
+    max-width: 100%;
+    max-height: 300px;
+
+    object-fit: contain;
+
+    min-width: 50%;
+    min-height: 350px;
+}
+
+.background .container p{
+    color: white;
+}
+/* Background END */
+
+
+
+/* Songs START */
+.songs{
+    width: 100%;
+    background-color: rgba(73, 43, 243, 0.801);
+}
+
+.songs .container{
+    padding: 10px;
+
+    text-align: center;
+}
+
+.songs .container h2{
+    color: #E5004F;
+}
+
+.songs .container ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.songs .container ul li{
+    list-style-type: none;
+}
+
+.songs .container ul li .pertama{
+    color: rgb(255, 25, 25);
+}
+
+.songs .container ul li a{
+    text-decoration: none;
+    color: white;
+
+    font-weight: 700;
+}
+
+.songs .container ul li a:hover{
+    color: rgb(255, 25, 25);
+}
+/* Songs END */
+/* List START */
+.list{
+    width: 100%;
+    background-color: rgba(73, 43, 243, 0.801)
+}
+
+.list .container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.list .container ul{
+    padding: 20px;
+
+}
+
+
+.list .container ul li{
+    color: #E5004F;
+    font-weight: 700;
+}
+/* List END */
